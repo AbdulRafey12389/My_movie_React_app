@@ -63,7 +63,7 @@ function Footer() {
         <button onClick={handleBackTopBtn} className="bg-[#20203b] rounded-md py-2 px-3 text-white font-semibold cursor-pointer">
           Back To Top
         </button>
-        <p className={`font-black text-white text-xl`}>Copyright 2024</p>
+        <p className={`font-black text-white text-xl`}>Abdul_Rafey © 2024</p>
 
         {pathname === "/" ? <button
           onClick={handleLoadBtn}
