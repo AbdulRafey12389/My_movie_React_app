@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { FaSearch } from "react-icons/fa";
 import { Link, useLocation } from "react-router-dom";
 import { useMovieData } from "../contexts/MovieDataProvider";
+import logo from "../../public/svg/MOVIEFLIX.svg"
 
 function Header({event}) {
   const [isSearchVisible, setIsSearchVisible] = useState(false);
@@ -48,7 +49,7 @@ function Header({event}) {
           }`}
         >
           <img
-            src="../public/svg/MOVIEFLIX.svg"
+            src={logo}
             className={`sm:w-[250px] ${
               isSearchVisible && isScreenSmall ? "hidden" : "block"
             }`}
