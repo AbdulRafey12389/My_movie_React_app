@@ -60,6 +60,10 @@
   object-fit: cover;
 }
 
+@media screen and (max-width: 1530px) and (min-width: 1281px) {
+  .cross { top: 20% !important; } 
+}
+
 @media (max-width: 445px) {
   .imageCard, .contentCard { margin-left: 0.5rem !important;}
 }

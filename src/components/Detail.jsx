@@ -157,7 +157,7 @@ function Detail() {
 
 
           <div className={`${overlay === true ? "scale-1 " : "scale-0 "} fixed transition-all ease-linear delay-100 duration-500 flex items-center justify-center overlayForVideo top-0 left-0 z-20 w-full h-[100vh] `}>
-            <img src={crossBtn} onClick={handleCloseBtn} className=" absolute top-[400px] sm:top-[300px] lg:top-[250px] xl:top-[220px] right-[50px] sm:right-[50px] lg:right-[90px] xl:right-[170px] cursor-pointer z-40" />
+            <img src={crossBtn} onClick={handleCloseBtn} className="cross absolute top-[30%] lg:top-[20%] xl:top-[12%]  right-[50px] sm:right-[50px] lg:right-[90px] xl:right-[170px] cursor-pointer z-40" />
             <div className="w-full h-full absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] bg-black opacity-70"></div>
             <div className=" w-[70%] h-[300px] sm:h-[450px] lg:h-[550px] 2xl:h-[750px] absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] bg-black">
               {overlay && 
